@@ -1,19 +1,8 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * Class for CEN 4802C-15913, Software Integration, Configuration, and Testing, Assignment 2.
- * @author Stephen Sturges Jr
- * @version 09/05/2022
- */
 public class Assignment2 {
 
-    /**
-     * Main method for the Assignment2 class. Calls the recursiveFibSeq method and outputs to the console 
-     * a String with the nth term and value of the Fibonacci sequence. Output string changes ordinal indicator
-     * depending on the n value used.
-     * @param args
-     */
     public static void main(String[] args) {
         boolean goodInput = false;
         int n = 0;
@@ -56,12 +45,6 @@ public class Assignment2 {
         
     }
 
-    /**
-     * Returns the nth term of the Fibonacci sequence, calculated recursivley.
-     * @author Stephen Sturges Jr
-     * @param n The nth term of the Fibonacci sequence.
-     * @return long value of the nth term of the Fibonacci sequence.
-     */
     public static long recursiveFibSeq(long n) {
         if (n == 1) {
             return 0;
